@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
     
     def testName(self):
         print (os.getcwd())
-        analysis = UATestAnalysis('Talend')
+        analysis = UATestAnalysis('TalendMetaDataAnalyzer')
         #analysis.add_selection("0.9")
         analysis.add_selection("itemsfile")
         analysis.set_verbose()
